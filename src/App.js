@@ -11,17 +11,13 @@ function App() {
     <div className="App">
          <Navbar />
         <HomePage/>
-      <BrowserRouter>
      
-        <Routes>
-        
-					<Route path="/components/form" element={<Form />} />
+ 
 			
 				
 
 
-				</Routes>
-      </BrowserRouter>
+				
       <Products/>
       <Footer/>
 

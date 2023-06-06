@@ -20,7 +20,7 @@ const navbar = () => {
                 </Link></li>
                 <li className='hover:text-white hover:rounded-md   text-2xl  font-serif'>    <Link to="products" smooth={true} duration={500} >
                     <div class="dropdown hover:text-white hover:rounded-md   text-2xl  font-serif">
-                        <button class="dropbtn">Products</button>
+                        <button class="dropbtn hover:text-white">Products</button>
                         <div class="dropdown-content">
                             <a href="#">Visual Safe GST</a>
                             <a href="#">MySchool</a>
