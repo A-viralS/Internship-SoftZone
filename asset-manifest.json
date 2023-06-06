@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Internship-SoftZone/static/css/main.ac80f444.css",
-    "main.js": "/Internship-SoftZone/static/js/main.0fbc1457.js",
+    "main.js": "/Internship-SoftZone/static/js/main.ffe42a5b.js",
     "static/media/homeImage.jpg": "/Internship-SoftZone/static/media/homeImage.99b1441e94fefe36d0e1.jpg",
     "static/media/retail.png": "/Internship-SoftZone/static/media/retail.32d0803c6deb6a4f9957.png",
     "static/media/school.png": "/Internship-SoftZone/static/media/school.9ed75f86060ff45e662a.png",
@@ -9,10 +9,10 @@
     "static/media/gst.png": "/Internship-SoftZone/static/media/gst.d7d0015977fcf705ea56.png",
     "index.html": "/Internship-SoftZone/index.html",
     "main.ac80f444.css.map": "/Internship-SoftZone/static/css/main.ac80f444.css.map",
-    "main.0fbc1457.js.map": "/Internship-SoftZone/static/js/main.0fbc1457.js.map"
+    "main.ffe42a5b.js.map": "/Internship-SoftZone/static/js/main.ffe42a5b.js.map"
   },
   "entrypoints": [
     "static/css/main.ac80f444.css",
-    "static/js/main.0fbc1457.js"
+    "static/js/main.ffe42a5b.js"
   ]
 }
