@@ -1,3 +1,71 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+svg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+padding-bottom: 500px;
+    vertical-align: middle;
+    overflow: hidden;
+    height: 30px;
+    margin-bottom: 1px;
+  }
+  .overlay {
+    z-index: 9;
+    width: 480px;
+    margin-top: 280px;
+   
+  }
+  .dropbtn {
+    background-color: #251b3e;
+    color: #f9a970;
+
+    font-size: 24px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9a970;
+ 
+    border-radius: 8px;
+    
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+      color: white;
+      
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: white;}
+  .dropdown-content a:hover {color: black; font: bold;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #251b3e;}
+  
